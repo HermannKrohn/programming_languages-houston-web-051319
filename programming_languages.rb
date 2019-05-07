@@ -26,8 +26,3 @@ def reformat_languages(languages)
   puts new_hash
 end
 
-new_hash[pLanguage][:style] << oo_functional
-
-
-new_hash[pLanguage] = {type: typeValue, style: [oo_functional]}
-              languagesCalledArr << pLanguage
