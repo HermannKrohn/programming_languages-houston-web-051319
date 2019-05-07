@@ -12,7 +12,6 @@ def reformat_languages(languages)
             else
               new_hash[pLanguage] = {type: typeValue, style: [oo_functional]}
               languagesCalledArr << pLanguage
-              break
             end
           end
         else 
