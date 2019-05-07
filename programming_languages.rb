@@ -8,12 +8,7 @@ def reformat_languages(languages)
         if languagesCalledArr.length != 0 
           languagesCalledArr.each do |currLanguage|
             if currLanguage == pLanguage
-              styleArr = []
-              new_hash[pLanguage][:style].each do |style|
-                styleArr << style
-              end
-              new_hash[pLanguage] = {type: typeValue, style:     styleArr}
-              break
+              new_hash[pLanguage][:style] << oo_functional
             else
               new_hash[pLanguage] = {type: typeValue, style: [oo_functional]}
               languagesCalledArr << pLanguage
