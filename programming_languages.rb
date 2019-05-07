@@ -1,6 +1,7 @@
 def reformat_languages(languages)
   # your code here
   new_hash = {}
+  checkPoint = false 
   languagesCalledArr = []
   languages.each do |oo_functional, programmingLanguages|
     programmingLanguages.each do |pLanguage, typeHash|
